@@ -38,9 +38,6 @@ from auth import update_profile, get_profile
 """Start annotation request
 Create the required AWS S3 policy document and render a form for
 uploading an annotation input file using the policy document
-
-Note: You are welcome to use this code instead of your own
-but you can replace the code below with your own if you prefer.
 """
 
 
@@ -97,9 +94,6 @@ def annotate():
 Accepts the S3 redirect GET request, parses it to extract 
 required info, saves a job item to the database, and then
 publishes a notification for the annotator service.
-
-Note: Update/replace the code below with your own from previous
-homework assignments
 """
 
 
